@@ -1,0 +1,204 @@
+name: instero
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.1.1+26
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  advanced_in_app_review: ^1.1.0
+  animated_text_kit: ^4.2.2
+  auto_size_text: ^3.0.0
+  blur: ^3.1.0
+  bottom_bar_page_transition: ^2.0.0
+  carousel_slider: ^4.1.1
+  change_app_package_name: ^1.1.0
+  chewie: ^1.3.5
+  cloud_firestore: ^4.0.4
+  device_preview: ^1.1.0
+  dio: ^4.0.6
+  firebase_analytics: ^10.0.4
+  firebase_auth: ^4.1.1
+  firebase_core: ^2.1.1
+  firebase_storage: ^11.0.4
+  fl_chart: ^0.55.2
+  flutter:
+    sdk: flutter
+  flutter_downloader: ^1.9.1
+  flutter_image_slideshow: ^0.1.4
+  flutter_inappwebview: ^5.7.0
+  flutter_local_notifications: ^13.0.0
+  flutter_login: ^4.0.0
+  flutter_native_splash: ^2.2.16
+  flutter_svg: ^1.1.5
+  flutter_toggle_tab: ^1.2.0
+  fluttertoast: ^8.1.1
+  google_fonts: ^3.0.1
+  google_mobile_ads: ^2.3.0
+  http: ^0.13.5
+  in_app_review: ^2.0.6
+  logger: ^1.1.0
+  lottie: ^2.1.0
+  ndialog: ^4.2.1
+  onesignal_flutter: ^3.5.0
+  page_transition: ^2.0.9
+  path_provider: ^2.0.11
+  permission_handler: ^10.2.0
+  purchases_flutter: ^4.5.4
+  responsive_sizer: ^3.1.1
+  rflutter_alert: ^2.0.4
+  shared_preferences: ^2.0.15
+  shimmer: ^2.0.0
+  story_view: ^0.14.0
+  tab_container: ^2.0.0
+  url_launcher: ^6.1.6
+  video_player: ^2.4.7
+  xrandom: ^0.7.2
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.11.0
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: false
+  image_path: "assets/images/pngicons/launchericon.png"
+
+flutter_native_splash:
+  color: "#0A0B40"
+  image: "assets/images/pngicons/launchericon.png"
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/svgicons/persons.svg
+    - assets/images/svgicons/heart.svg
+    - assets/images/svgicons/play.svg
+    - assets/images/svgicons/person.svg
+    - assets/images/svgicons/uccizgi.svg
+    - assets/images/backgrounds/firstcontainerbackground.png
+    - assets/images/backgrounds/artıanim.png
+    - assets/images/profilepictures/profilepic.png
+    - assets/images/svgicons/yukariarrow.svg
+    - assets/images/svgicons/assagiarrow.svg
+    - assets/images/svgicons/hayalet.svg
+    - assets/images/svgicons/yukselis.svg
+    - assets/images/svgicons/arrowforward.svg
+    - assets/images/svgicons/spy.svg
+    - assets/images/svgicons/nextyuvarlak.svg
+    - assets/images/svgicons/geriarrow.svg
+    - assets/images/svgicons/ileriarrow.svg
+    - assets/images/svgicons/bildirimicon.svg
+    - assets/images/svgicons/aramaicon.svg
+    - assets/images/svgicons/nasilcalisir.svg
+    - assets/images/svgicons/kullanımkosulları.svg
+    - assets/images/svgicons/megafon.svg
+    - assets/images/svgicons/abonelikler.svg
+    - assets/images/svgicons/gizlilikpolitikası.svg
+    - assets/images/svgicons/geridonusum.svg
+    - assets/images/svgicons/gecmissil.svg
+    - assets/images/svgicons/bildirimver.svg
+    - assets/images/svgicons/yıldız.svg
+    - assets/images/backgrounds/telefonlar.png
+    - assets/images/gönderiimages/manzara.png
+    - assets/images/svgicons/kalpicon.svg
+    - assets/images/svgicons/yorumicon.svg
+    - assets/images/backgrounds/loginpageback.png
+    - assets/images/pngicons/instagramlogo.png
+    - assets/images/svgicons/bottombarikincilogo.svg
+    - assets/images/svgicons/ayaricon.svg
+    - assets/images/backgrounds/settingsprobackground.png
+    - assets/images/svgicons/beyazdişliileriarrow.svg
+    - assets/images/svgicons/aramaiconiki.svg
+    - assets/images/profilepictures/savurdupic.png
+    - assets/images/svgicons/kiliticon.svg
+    - assets/images/svgicons/gozicon.svg
+    - assets/images/svgicons/takipetlogo.svg
+    - assets/images/svgicons/OzelliklerIconbir.svg
+    - assets/images/svgicons/OzelliklerIconiki.svg
+    - assets/images/svgicons/OzelliklerIconuc.svg
+    - assets/images/svgicons/OzelliklerIcondort.svg
+    - assets/images/svgicons/OzelliklerIconbes.svg
+    - assets/images/backgrounds/prototipbir.png
+    - assets/images/backgrounds/prototipiki.png
+    - assets/images/backgrounds/prototipiuc.png
+    - assets/images/backgrounds/prototipikidort.png
+    - assets/images/backgrounds/prototipbes.png
+    - assets/images/backgrounds/prototipalti.png
+    - assets/images/backgrounds/prototipyedi.png
+    - assets/images/backgrounds/prototipsekiz.png
+    - assets/images/svgicons/playbutton.svg
+    - assets/images/backgrounds/storybackground.png
+    - assets/images/svgicons/infoicon.svg
+    - assets/images/svgicons/copkutusuicon.svg
+    - assets/images/svgicons/logoutlogo.svg
+    - assets/images/svgicons/profilkalpicon.svg
+    - assets/images/svgicons/profilyorumicon.svg
+    - assets/images/svgicons/profilindiricon.svg
+    - assets/images/svgicons/asagiarrow.svg
+    - assets/images/svgicons/lockkilit.svg
+    - assets/images/backgrounds/loginpagebackiki.jpg
+    - assets/images/backgrounds/loginpagebackuc.jpg
+    - assets/images/svgicons/instagramlogoiki.svg
+    - assets/images/pngicons/launchericon.png
+    - assets/lottiefiles/image_animation.json
+    - assets/images/svgicons/searchtwo.svg
+    - assets/images/svgicons/acilankilit.svg
+    - assets/images/svgicons/takpici.svg
+    - assets/images/svgicons/takip.svg
+    - assets/images/svgicons/takip.svg
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

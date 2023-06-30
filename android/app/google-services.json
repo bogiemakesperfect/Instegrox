@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "486412432647",
+    "project_id": "instegro",
+    "storage_bucket": "instegro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486412432647:android:38bf995746173e272201a2",
+        "android_client_info": {
+          "package_name": "com.socialx.sosyalx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486412432647-au103fb8sg3k3b3kk4eca4b13e9bk1g2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.socialx.sosyalx",
+            "certificate_hash": "f80a565a6ed50b3a863776be9b3903c47a1d4cae"
+          }
+        },
+        {
+          "client_id": "486412432647-6a8c20tid5ulc4hlfv5pmg4lhcp1jv6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnnkvc0tOKXQaNkc_fqT7pcDAD6yN4DI8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486412432647-6a8c20tid5ulc4hlfv5pmg4lhcp1jv6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
